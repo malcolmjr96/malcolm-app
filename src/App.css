@@ -1,0 +1,156 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav {
+
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-item {
+  margin: 2px;
+}
+.info-plaque {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-image {
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+.section-heading {
+  margin: 10px 0px 10px 0px;
+}
+
+main {
+}
+.tech-stack-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  grid-gap: 10px;
+  justify-self: center;
+  justify-content: center;
+}
+
+.tech-block {
+  min-height: 150px;
+  padding: 10px 5px;
+  min-width: 300px;
+}
+.tech-block li {
+  list-style: none;
+}
+.tech {
+  font-size: 18px;
+  color: white;
+  background-color: rgba(255, 0, 0, 0.36);
+  margin: 4px;
+  padding: 4px;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+.education {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.education-item {
+  width: 100%;
+  margin-bottom: 15px;
+  /* border: 1px solid white; */
+}
+
+.experience {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.experience-item {
+
+      margin-bottom: 10px;
+
+
+}
+.experience-item, .education-item, .awards-item {
+
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+.roles {
+
+}
+.role-item {
+  background-color: #1A1953;
+  padding: 20px;
+
+  border: 1px solid orange;
+    border-left: 5px solid orange;
+}
+
+.role-heading {
+
+}
+
+.role-description {
+  padding-left: 25px;
+}
+
+
+.awards {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.awards-item {
+    padding: 20px;
+      margin-bottom: 10px;
+        background-color: #1A1953;
+    border-radius: 10px;
+          border: 1px solid orange;
+    border-left: 5px solid orange;
+}
+
+.hire-me {
+    display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-left: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: rgb(25, 18, 48);
+}
+
+/* .education-item {
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid darkgrey;
+} */
+
+.role-item {
+  margin: 5px;
+  border-radius: 8px;
+}
