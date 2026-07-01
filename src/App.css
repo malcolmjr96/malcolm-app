@@ -1,156 +1,159 @@
-header {
+.column1 {
+  display: flex;
+  max-height: 100vh;
+  margin-right: 9.5px;
+  /* width: 45%; */
+  /* background-color: green; */
+}
+.columnContent1{
+  background-color: black;
   display: flex;
   flex-direction: column;
+  /* justify-content: space-evenly; */
   align-items: center;
 }
-
-nav {
-
-}
-
-nav ul {
+.column2 {
   display: flex;
-  flex-direction: row;
-}
-
-.nav-items {
-  display: flex;
-  list-style: none;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.nav-item {
-  margin: 2px;
-}
-.info-plaque {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.profile-image {
-  max-width: 150px;
-  border-radius: 50%;
-}
-
-.section-heading {
-  margin: 10px 0px 10px 0px;
-}
-
-main {
-}
-.tech-stack-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-template-rows: auto auto;
-  grid-gap: 10px;
-  justify-self: center;
-  justify-content: center;
-}
-
-.tech-block {
-  min-height: 150px;
-  padding: 10px 5px;
-  min-width: 300px;
-}
-.tech-block li {
-  list-style: none;
-}
-.tech {
-  font-size: 18px;
-  color: white;
-  background-color: rgba(255, 0, 0, 0.36);
-  margin: 4px;
-  padding: 4px;
-  border: 1px solid red;
-  border-radius: 5px;
-}
-.education {
-  display: flex;
-  justify-content: space-between;
+  /* width: 55%; */
   flex-direction: column;
-  align-items: center;
+  scroll-behavior: auto;
+  justify-content: space-evenly;
+  height: auto;
+  max-height: 57.8vh;
+  flex: auto;
 }
-.education-item {
+.columnContent2{
+  background-color: black;
   width: 100%;
-  margin-bottom: 15px;
-  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+    height: 100vh;
+  overflow-y: scroll;
+  border-radius: 20px;
+}
+.experience-block {
+  padding: 1.5rem;
+}
+.block {
+  background-color: rgb(36, 36, 36);
+  border-radius: 20px;
+  padding: 1rem;
+  margin-bottom: 9.5px;
+  /* margin-left: 9.5px; */
+  margin-right: 0px;
 }
 
-.experience {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
+.block:last-child {
+}
+
+
+.imgBlock {
+  display: block;
+  border-radius: 20px;
+  height: 100%;
+  /* margin-bottom: 9.5px; */
+}
+
+.profile-image-container {
+}
+.profile-image {
+  display: block;
+  width: 100%;
+  padding-bottom: 9.5px;
 }
 
 .experience-item {
-
-      margin-bottom: 10px;
-
-
-}
-.experience-item, .education-item, .awards-item {
-
+  margin-bottom: 12px;
 }
 
-h2 {
-  text-decoration: underline;
+.experience-item li {
 }
 
-.roles {
-
-}
-.role-item {
-  background-color: #1A1953;
-  padding: 20px;
-
-  border: 1px solid orange;
-    border-left: 5px solid orange;
-}
-
-.role-heading {
-
-}
-
-.role-description {
-  padding-left: 25px;
-}
-
-
-.awards {
+.contact-info {
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(36, 36, 36);
+  height: auto;
+  width: 100%;
+  margin-bottom: 0px;
 }
-
-.awards-item {
-    padding: 20px;
-      margin-bottom: 10px;
-        background-color: #1A1953;
-    border-radius: 10px;
-          border: 1px solid orange;
-    border-left: 5px solid orange;
-}
-
-.hire-me {
+/* .contact-info-content {
     display: flex;
-  justify-content: space-between;
   flex-direction: column;
-  padding-left: 10px;
-    border: 1px solid white;
-    border-radius: 10px;
-    margin-top: 10px;
-    background-color: rgb(25, 18, 48);
-}
-
-/* .education-item {
-  margin: 5px;
-  border-radius: 5px;
-  border: 1px solid darkgrey;
 } */
 
+/* .contact-info-content p {
+  display: flex;
+  justify-content: space-between;
+} */
+
+details {
+  margin: 0;
+}
+
+.titleRole {
+  display: block;
+  height: auto;
+  margin-bottom: 11.5px;
+}
+
+.titleRole h2, .titleRole h3 {
+  margin: 0;
+  padding: 0;
+  color: lightgray;
+}
+.download-section {
+  /* flex-flow: column; */
+}
+.download-btn {
+  height: 60px;
+  width: 100%;
+  border-radius: 18px;
+  color: white;
+  border-color: white;
+  border-style: solid;
+  background: none;
+}
+
+.download-btn:hover {
+  background-color: black;
+  border-color: blue;
+
+  font-weight: bold;
+}
+.contact-info-meta {
+  margin-bottom: 12px;
+}
+
+.contact-info-meta ul {
+  padding: 0 0;
+  list-style: none;
+}
+.contact-info-meta ul li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tech-stack {
+  min-height: 272px;
+}
+
+.stacks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.company {
+  color: pink;
+  font-weight: 600;
+}
+
 .role-item {
-  margin: 5px;
-  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+.role-item ul {
+  margin-left: 18px;
 }

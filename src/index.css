@@ -3,16 +3,45 @@
   margin: 0;
   padding: 0;
 }
-html {
-  display: flex;
-  justify-content: center;
-}
 
 body {
-  width: 60%;
-  padding: 0px 20px;
-  min-height: 100vh;
-  background-color: #080616;
-  color: white;
-  font-family: monospace, 'Albert Sans', Tahoma, Arial, Helvetica, sans-serif;
+  display: flex;
+  color: grey;
+  background-color: black;
+  margin: 5rem 30rem 0rem 30rem;
+  font-family: "Geist", sans-serif;
 }
+
+
+header {
+  background-color: blue;
+}
+
+main {
+  background-color: orange;
+}
+
+#root {
+  display: flex;
+  margin: 9.5px;
+}
+
+
+.roboto-geist {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.geist-geistNormal {
+  font-family: "Geist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
